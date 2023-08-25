@@ -1,0 +1,9 @@
+<h1>Dogs</h1>
+
+<img src="{{randomImage}}" alt="Random dog image">
+<button (click)="getRandomImage()">Get another image</button>
+
+<input type="text" [(ngModel)]="text">
+<div [whiteSpace]="text">
+  {{text}}
+</div>
